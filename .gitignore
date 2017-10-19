@@ -1,0 +1,10 @@
+
+\.idea/
+
+errorShots/
+
+node_modules/
+
+WDIO\.xunit\.chrome\.0-0\.xml
+
+WDIO\.xunit\.firefox\.0-0\.xml

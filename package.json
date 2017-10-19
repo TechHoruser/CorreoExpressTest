@@ -1,0 +1,22 @@
+{
+  "name": "WebDriverIOPrototype",
+  "version": "1.0.0",
+  "description": "WebDriverIO Prototype",
+  "main": "",
+  "scripts": {
+    "correos_specs": "./node_modules/.bin/wdio wdio.conf.js --suite correos_specs",
+    "correos_pop": "./node_modules/.bin/wdio wdio.conf.js --suite correos_pop"
+  },
+  "dependencies": {
+    "wdio-selenium-standalone-service": "~0.0.9",
+    "babel-register": "~6.26.0",
+    "chai": "~4.1.2",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "wdio-junit-reporter": "^0.3.1",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-spec-reporter": "^0.1.2"
+  }
+}
